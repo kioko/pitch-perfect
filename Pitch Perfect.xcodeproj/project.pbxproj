@@ -14,7 +14,7 @@
 		D63704DC1C34EF3300FEE7B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63704DA1C34EF3300FEE7B8 /* LaunchScreen.storyboard */; };
 		D63704E71C34EF3300FEE7B8 /* Pitch_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63704E61C34EF3300FEE7B8 /* Pitch_PerfectTests.swift */; };
 		D63704F21C34EF3300FEE7B8 /* Pitch_PerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63704F11C34EF3300FEE7B8 /* Pitch_PerfectUITests.swift */; };
-		D63705001C34EF6200FEE7B8 /* REAME.md in Sources */ = {isa = PBXBuildFile; fileRef = D63704FF1C34EF6200FEE7B8 /* REAME.md */; };
+		D63705001C34EF6200FEE7B8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D63704FF1C34EF6200FEE7B8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		D63704ED1C34EF3300FEE7B8 /* Pitch PerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch PerfectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63704F11C34EF3300FEE7B8 /* Pitch_PerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerfectUITests.swift; sourceTree = "<group>"; };
 		D63704F31C34EF3300FEE7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D63704FF1C34EF6200FEE7B8 /* REAME.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = REAME.md; sourceTree = "<group>"; };
+		D63704FF1C34EF6200FEE7B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 		D63704C51C34EF3300FEE7B8 = {
 			isa = PBXGroup;
 			children = (
-				D63704FF1C34EF6200FEE7B8 /* REAME.md */,
+				D63704FF1C34EF6200FEE7B8 /* README.md */,
 				D63704D01C34EF3300FEE7B8 /* Pitch Perfect */,
 				D63704E51C34EF3300FEE7B8 /* Pitch PerfectTests */,
 				D63704F01C34EF3300FEE7B8 /* Pitch PerfectUITests */,
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D63704D41C34EF3300FEE7B8 /* ViewController.swift in Sources */,
-				D63705001C34EF6200FEE7B8 /* REAME.md in Sources */,
+				D63705001C34EF6200FEE7B8 /* README.md in Sources */,
 				D63704D21C34EF3300FEE7B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

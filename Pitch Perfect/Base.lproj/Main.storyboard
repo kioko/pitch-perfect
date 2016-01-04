@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -161,16 +162,16 @@
                                 <exclude reference="82n-Hb-1br"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="jdN-lA-qFV"/>
-                                <exclude reference="xkL-1I-MhU"/>
-                                <exclude reference="VOP-H2-1LM"/>
-                                <exclude reference="mdx-2U-bZ9"/>
-                                <exclude reference="gVU-rq-Grb"/>
-                                <exclude reference="UNc-FK-DEI"/>
-                                <exclude reference="MNA-74-ZjL"/>
                                 <exclude reference="28o-Lu-32Z"/>
                                 <exclude reference="KRY-WC-Out"/>
                                 <exclude reference="tyH-uQ-UpS"/>
+                                <exclude reference="MNA-74-ZjL"/>
+                                <exclude reference="VOP-H2-1LM"/>
+                                <exclude reference="mdx-2U-bZ9"/>
+                                <exclude reference="UNc-FK-DEI"/>
+                                <exclude reference="jdN-lA-qFV"/>
+                                <exclude reference="xkL-1I-MhU"/>
+                                <exclude reference="gVU-rq-Grb"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -182,22 +183,22 @@
                                 <include reference="82n-Hb-1br"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="jdN-lA-qFV"/>
-                                <include reference="xkL-1I-MhU"/>
-                                <include reference="VOP-H2-1LM"/>
-                                <include reference="mdx-2U-bZ9"/>
-                                <include reference="gVU-rq-Grb"/>
-                                <include reference="UNc-FK-DEI"/>
-                                <include reference="MNA-74-ZjL"/>
                                 <include reference="28o-Lu-32Z"/>
                                 <include reference="KRY-WC-Out"/>
                                 <include reference="tyH-uQ-UpS"/>
+                                <include reference="MNA-74-ZjL"/>
+                                <include reference="VOP-H2-1LM"/>
+                                <include reference="mdx-2U-bZ9"/>
+                                <include reference="UNc-FK-DEI"/>
+                                <include reference="jdN-lA-qFV"/>
+                                <include reference="xkL-1I-MhU"/>
+                                <include reference="gVU-rq-Grb"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="chimpMunkButton" destination="dzZ-yc-Td5" id="26o-kV-4LZ"/>
-                        <outlet property="darthVader" destination="82n-Hb-1br" id="Ulv-Yj-IN2"/>
+                        <outlet property="darthVaderButton" destination="82n-Hb-1br" id="qYD-gB-lK1"/>
                         <outlet property="fastButton" destination="1jl-hN-pqG" id="p1f-l3-SJ6"/>
                         <outlet property="slowButton" destination="RLa-gh-47p" id="Cbh-0y-h52"/>
                         <outlet property="stopButton" destination="07e-4v-cY6" id="3FY-1j-Wva"/>

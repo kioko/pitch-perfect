@@ -144,6 +144,7 @@ class PlaySoundsViewController: UIViewController {
         enableDisableButtons(stopButton, enableState: false)
         enableDisableButtons(slowButton, enableState: true)
         enableDisableButtons(fastButton, enableState: true)
+        enableDisableButtons(darthVaderButton, enableState: true)
     }
     
     
